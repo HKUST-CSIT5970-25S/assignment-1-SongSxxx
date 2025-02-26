@@ -51,6 +51,7 @@ Memory performance: The memory performance of t2.medium is higher than t2.micro,
     | `m5.large` - `t3.medium`  | 2.76 Gbits/sec | 0.586 ms |
 
 **According to the test results, it can be seen that: between instances of the same type, the bandwidth is relatively high and the RTT is low, the network transmission speed is fast and the latency is low. Between different types of instances, the bandwidth and RTT are more different. t3.medium communicates with other types of instances with significantly lower bandwidth and higher RTT than the same type of instances, which may be related to the network performance specification of the instances themselves.**
+
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. Note: Use private IP address when using iPerf within the same region. You'll need iPerf for measuring TCP bandwidth and Ping for measuring Round-Trip time.
  *****
 2. (1 mark) What about the network performance for instances deployed in different regions? In order to answer this question, you need to complete the following table.

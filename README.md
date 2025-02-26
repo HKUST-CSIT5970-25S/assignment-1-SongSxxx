@@ -5,9 +5,9 @@
 
 ---
 
-### Name: 
-### Student Id: 
-### Email: 
+### Name: SONG, Ge
+### Student Id: 21143075
+### Email: gsongab@connect.ust.hk
 
 ---
 
@@ -23,7 +23,7 @@
 
     | Size        | CPU performance | Memory performance |
     | ----------- | --------------- | ------------------ |
-    | `t2.micro` |                 |                    |
+    | `t2.micro` | Compression：3558 MIPS; Decompression:3073 MIPS |    10630.60 MB/s     |
     | `t2.medium`  |                 |                    |
     | `c5d.large` |                 |                    |
 

@@ -24,8 +24,8 @@
     | Size        | CPU performance | Memory performance |
     | ----------- | --------------- | ------------------ |
     | `t2.micro` | Compression：3558 MIPS; Decompression:3073 MIPS |    10630.60 MB/s     |
-    | `t2.medium`  | Compression：9979 MIPS; Decompression:5871 MIPS                |    19111.86 MB/s    |
-    | `c5d.large` |                 |                    |
+    | `t2.medium`  | Compression：9979 MIPS; Decompression:5871 MIPS |    19111.86 MB/s    |
+    | `c5d.large` | Compression：7297 MIPS; Decompression:4909 MIPS  |   13164.58 MB/s   |
 
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI.
 

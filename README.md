@@ -58,8 +58,8 @@ Memory performance: The memory performance of t2.medium is higher than t2.micro,
 
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
-    | N. Virginia - Oregon      |                |          |
-    | N. Virginia - N. Virginia |                |          |
-    | Oregon - Oregon           |                |          |
+    | N. Virginia - Oregon      | 33.4 Mbits/sec | 64.568 ms|
+    | N. Virginia - N. Virginia | 4.78 Gbits/sec | 0.138 ms |
+    | Oregon - Oregon           | 4.77 Gbits/sec | 0.217 ms |
  
     > Region: US East (N. Virginia), US West (Oregon). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. All instances are `c5.large`. Note: Use public IP address when using iPerf within the same region.

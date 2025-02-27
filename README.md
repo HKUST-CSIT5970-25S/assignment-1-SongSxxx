@@ -43,12 +43,12 @@ Memory performance: The memory performance of t2.medium is higher than t2.micro,
 
     | Type                      | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
-    | `t3.medium` - `t3.medium` | 3.98 Gbits/sec | 0.221 ms |
-    | `m5.large` - `m5.large`   | 4.97 Gbits/sec | 0.124 ms |
-    | `c5n.large` - `c5n.large` | 4.96 Gbits/sec | 0.153 ms |
-    | `t3.medium` - `c5n.large` | 2.30 Gbits/sec | 0.775 ms |
-    | `m5.large` - `c5n.large`  | 4.95 Gbits/sec | 0.124 ms |
-    | `m5.large` - `t3.medium`  | 2.76 Gbits/sec | 0.586 ms |
+    | `t3.medium` - `t3.medium` | 3.98 Gbits/sec(4075.52Mbps) | 0.221 ms |
+    | `m5.large` - `m5.large`   | 4.97 Gbits/sec(5089.28Mbps) | 0.124 ms |
+    | `c5n.large` - `c5n.large` | 4.96 Gbits/sec(5079.04Mbps) | 0.153 ms |
+    | `t3.medium` - `c5n.large` | 2.30 Gbits/sec(2355.20Mbps) | 0.775 ms |
+    | `m5.large` - `c5n.large`  | 4.95 Gbits/sec(5068.80Mbps) | 0.124 ms |
+    | `m5.large` - `t3.medium`  | 2.76 Gbits/sec(2826.24Mbps) | 0.586 ms |
 
     > Region: US East (N. Virginia). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. Note: Use private IP address when using iPerf within the same region. You'll need iPerf for measuring TCP bandwidth and Ping for measuring Round-Trip time.
 
@@ -59,7 +59,9 @@ Memory performance: The memory performance of t2.medium is higher than t2.micro,
     | Connection                | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
     | N. Virginia - Oregon      | 33.4 Mbits/sec | 64.568 ms|
-    | N. Virginia - N. Virginia | 4.78 Gbits/sec | 0.138 ms |
-    | Oregon - Oregon           | 4.77 Gbits/sec | 0.217 ms |
+    | N. Virginia - N. Virginia | 4.78 Gbits/sec(4894.72Mbps)| 0.138 ms |
+    | Oregon - Oregon           | 4.77 Gbits/sec(4884.48Mbps) | 0.217 ms |
  
     > Region: US East (N. Virginia), US West (Oregon). Use `Ubuntu Server 22.04 LTS (HVM)` as AMI. All instances are `c5.large`. Note: Use public IP address when using iPerf within the same region.
+
+**From the data in the table, it can be seen that instances deployed in different regions generally have lower TCP bandwidth and higher round-trip time (RTT) than instances deployed in the same region, given the same AMI and instance type.**

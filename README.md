@@ -44,7 +44,7 @@ Memory performance: The memory performance of t2.medium is higher than t2.micro,
     | Type                      | TCP b/w (Mbps) | RTT (ms) |
     | ------------------------- | -------------- | -------- |
     | `t3.medium` - `t3.medium` | 3.98 Gbits/sec(4075.52Mbps) | 0.221 ms |
-    | `m5.large` - `m5.large`   | 4.97 Gbits/sec(5089.28Mbps) | 0.124 ms |
+    | `m5.large` - `m5.large`   | 9.13 Gbits/sec(9349.12Mbps) | 0.254 ms |
     | `c5n.large` - `c5n.large` | 4.96 Gbits/sec(5079.04Mbps) | 0.153 ms |
     | `t3.medium` - `c5n.large` | 2.30 Gbits/sec(2355.20Mbps) | 0.775 ms |
     | `m5.large` - `c5n.large`  | 4.95 Gbits/sec(5068.80Mbps) | 0.150 ms |
